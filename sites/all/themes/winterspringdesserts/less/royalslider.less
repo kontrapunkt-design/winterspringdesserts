@@ -1,0 +1,111 @@
+.field-name-field-gallery{
+	.royalSlider{
+		width: 100%;
+		height:500px;
+		margin:@row-height*8 0;
+		padding:@row-height*2 0;
+		background-color:transparent;
+		.rsVisibleNearbyWrap{
+			.rsOverflow{
+				background:transparent;
+				.rsContainer{
+					.rsSlide{
+						background: transparent;
+						.royalslider-item{
+							.rsImg{
+								.scale(0.8);
+								.transition(0.2s, ease-in-out);
+								opacity: 0.7;
+							}
+						}
+					}
+					.rsActiveSlide{
+						.royalslider-item{
+							.rsImg{
+								.scale(1);
+								.transition(0.2s, ease-in-out);
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+		.rsBullets{
+			background-color:transparent;
+			padding:@row-height 0;
+			.rsNavItem{
+				width:@row-height;
+				height:@row-height;
+				span{
+					.rounded(100%);
+					.transition(0.2s, ease-in-out);
+					width:@row-height;
+					height:@row-height;
+					&:hover{
+						.transition(0.2s, ease-in-out);
+						cursor: pointer;
+						background-color:@brand-color;
+
+					}
+				}
+			}
+		}
+		.rsGCaption{
+			display: inline-block;
+			position: relative;
+			width:100%;
+			background-color:transparent;
+			padding:0;
+			top:initial;
+			left:initial;
+			margin:0;
+			.rsCaption{
+				display: block;
+				position: relative;
+				width: auto;
+				margin:0 auto;
+				text-align: center;
+			}
+		}
+		.rsArrow{
+			.rsArrowIcn{
+				.rounded(100%);
+				width:@row-height*4.5;
+				height:@row-height*4.5;
+			}
+		}
+		.rsArrowLeft{
+			.rsArrowIcn{
+				background: url(@rs-icon-arrow-left) fade(@brand-color, 30%) no-repeat center;
+				margin-left:@row-height;
+			}
+		}
+		.rsArrowRight{
+			.rsArrowIcn{
+				background: url(@rs-icon-arrow-right) fade(@brand-color, 30%) no-repeat center;
+				margin-left:-@row-height*5.5;
+			}
+		}
+		.rsFullscreenBtn{
+			display: block;
+			width: 100%;
+			margin:0;
+			.rsFullscreenIcn{
+				.rounded(100%);
+				width:@row-height*4.5;
+				height:@row-height*4.5;
+				margin:@row-height*2 auto 0;
+				background: url(@rs-icon-fullscreen-open) fade(@brand-color, 30%) no-repeat center;
+			}
+		}
+	}
+	.rsFullscreen{
+		background-color: fade(@brand-color-text-alt, 95%);
+		.rsFullscreenBtn{
+			.rsFullscreenIcn{
+				background: url(@rs-icon-fullscreen-close) fade(@brand-color, 30%) no-repeat center;
+			}
+		}
+	}
+}

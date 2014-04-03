@@ -1,0 +1,114 @@
+body{
+	.body-text;
+}
+h1,h2,h3,h4,h5,h6{
+	.header;
+	display: inline-block;
+	width:auto;
+	margin:@row-height auto;
+}
+.page{
+	#main-content{
+		h1{
+			.header(2.5rem,3rem);
+		}
+	}
+}
+.block{
+	>h2.title{
+		position: relative;
+		text-align: center;
+		.header(2.5rem,3rem);
+		width:100%;
+	}
+}
+.block{
+	.node-dessert{
+		>h2{
+			display: block;
+			margin:0 auto;
+			a{
+				display: block;
+				text-decoration: none;
+				&:hover{
+				}
+			}
+		}
+	}
+}
+.views-row{
+	.views-field-title{
+		h2{
+			.header(1rem,1.25rem);
+			margin-bottom:0;
+		}
+	}
+	.node{
+		h2{
+			.header(1rem,1.25rem);
+			margin-bottom:0;
+		}
+	}
+	.node-dessert{
+		h2{
+			.header(2.5rem,3rem);
+			margin-bottom:0;
+			a{
+				color:@brand-color;
+			}
+		}
+	}
+}
+.node-dessert{
+	.content{
+		.field-name-field-intro,
+		.field-name-field-ingredients >p,
+		.field-name-field-additional-info >p,
+		.field-collection-item-field-nutrition-info,
+		legend,
+		.rsCaption
+		{
+			.header(0.95rem,1.25rem, @brand-color-text);
+			font-weight:400;
+			text-transform: none;
+		}
+		legend{
+			font-weight:600;			
+		}
+		.nutritional-group{
+			.fieldset-legend{
+				text-transform: uppercase;
+			}
+		}
+		.field-name-body{
+
+		}
+	}
+}
+
+p{
+	.body-text;
+	color:@brand-color-text;
+}
+.field-name-body{
+	p{
+		text-align: center;
+	}
+}
+// locaiton field
+.views-field-field-adress,
+.field-type-addressfield,
+.views-field-field-link{
+	.small-text;
+	.h2{
+		.header(1rem,1.5rem, @brand-color);
+		font-weight:bold;
+		margin:0;
+	}
+	a{
+		border-color:@brand-color-text-alt;
+		&:hover{
+			border-color:@brand-color;
+		}
+	}
+}
