@@ -12,7 +12,7 @@
 	}
 
 	function onPlayerReady(event) {
-	  
+
 	  // bind events
 	  var playButton = document.getElementById("play-button");
 	  playButton.addEventListener("click", function() {
@@ -20,7 +20,7 @@
 	    document.getElementById("node_front_page_story_teaser_group_youtube_player").classList.add("video-play");
 	    player.playVideo();
 	  });
-	  
+
 	  var pauseButton = document.getElementById("pause-button");
 	  pauseButton.addEventListener("click", function() {
 	    player.pauseVideo();
@@ -64,7 +64,7 @@
 
 	// background image animation
  	function titleHover(){
- 		$(dessert).find("a").hover( 
+ 		$(dessert).find("a").hover(
  			function(){
  				$(this).parent().parent().find(".field-collection-item-field-dessert-background-image").addClass("hover-states");
  			},
@@ -81,7 +81,7 @@
  		var extraMenuPadding = $('.block-system-main-menu .menu').outerHeight();
  		$(targetButton).on(
  			"click", function(){
- 				$('body').animate({ 
+ 				$('body').animate({
  					scrollTop: targetPos - extraMenuPadding - 10 + "px"
  				});
  				console.log(extraMenuPadding);
