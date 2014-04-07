@@ -27,6 +27,7 @@
   <?php if($page['header']): ?>
     <div class="header-region">
       <?php print render($page['header']); ?>
+      <a href="#" id="toggle-menu"></a>
     </div>
   <?php endif; ?>
 
@@ -37,7 +38,7 @@
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
       </figure>
-    <?php endif; ?>    
+    <?php endif; ?>
   </div>
 </header>
 

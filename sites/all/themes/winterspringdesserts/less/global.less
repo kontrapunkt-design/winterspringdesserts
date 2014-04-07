@@ -56,7 +56,7 @@ a{
 	.item-list{
 		>ul{
 			li.views-row{
-				.field-name-body{	
+				.field-name-body{
 					display: block;
 					position: relative;
 					width:30%;
@@ -68,7 +68,7 @@ a{
 						width:75%;
 					}
 					@media screen and(max-width:@mobile-01){
-						width:100%;
+						width:80%; margin:0 auto;
 					}
 				}
 				#node_front_page_story_teaser_group_youtube_player{
@@ -178,7 +178,7 @@ a{
 						.button-icon{
 							top:40%;
 							background: url(@icon-pause) fade(@brand-color, 30%) no-repeat center;
-						}					
+						}
 					}
 				}
 			}
@@ -247,9 +247,11 @@ a{
 		>ul{
 			.row(12);
 			li.views-row{
-				.column(4,12);
+            .column(4,12);
+            margin-top:30px;
 				@media screen and(max-width:@desktop-02){
 					.column(6,12);
+               margin-top:50px;
 					margin-bottom:@row-height*2;
 					&:nth-child(2n){
 						clear:left;
@@ -334,7 +336,8 @@ a{
 				}
 				.node-press{
 					h2{
-						margin-bottom:@row-height;
+                  margin-top:@row-height * 2;
+						margin-bottom:@row-height * 1.5;
 					}
 					.content{
 						a{
@@ -403,7 +406,7 @@ a{
 			img{
 				display: block;
 				position: relative;
-				margin:0 auto @row-height*4;
+				margin:@row-height*2.5 auto @row-height*4;
 			}
 		}
 		.field-type-addressfield{

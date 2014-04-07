@@ -6,3 +6,9 @@ sites/*/settings*.php
 #sites/*/private
 
 /.DS_Store
+
+.DS_Store
+
+~
+
+config.codekit
