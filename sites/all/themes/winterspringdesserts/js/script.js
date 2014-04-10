@@ -50,10 +50,22 @@
       }
    }
 
+   // function scroll to title in desert
+   function scrollDessertTitle(){
+      if($("body").hasClass("not-front")){
+         $("html, body").animate({
+            scrollTop: $("#main-content >h1").offset().top - $(".block-system-main-menu .menu").outerHeight()*2
+         });
+      }
+   }
+
    $(document).ready(function(){
       // Youtube video
       youtubePlay("#play-button");
       youtubePlay("#pause-button");
+
+      // scroll to title
+      setTimeout(scrollDessertTitle(), 200);
 
       // Desserts areas
       var targetHeight = $(window).height() * 0.5;
@@ -74,6 +86,23 @@
          e.preventDefault();
       });
    });
+
+   $(window).scroll(function() {
+       clearTimeout($.data(this, 'scrollTimer'));
+       var targetPos = $(".site-identity").offset().top;
+       var windowsPos = $(this).scrollTop();
+       $(".block-system-main-menu").removeClass("scroll-stop").addClass("scroll");
+       $.data(this, 'scrollTimer', setTimeout(function() {
+           // do something
+          if(windowsPos>targetPos){
+              $(".block-system-main-menu").addClass("scroll-stop").removeClass("scroll");
+          }
+          else if(windowsPos<targetPos){
+              $(".block-system-main-menu").removeClass("scroll-stop").removeClass("scroll");
+          }
+       }, 250));
+   });
+
 
    $(window)
       // On resize

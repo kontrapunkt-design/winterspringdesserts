@@ -128,14 +128,6 @@ a:hover {
 .block-views-footer-contact-block h2.title {
   text-align: center;
 }
-/* line 44, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\0000344}}
-.block-views-featured-material-block .item-list > ul li.views-row .views-field,
-.block-views-press-block .item-list > ul li.views-row .views-field,
-.block-views-store-location-block .item-list > ul li.views-row .views-field,
-.block-views-footer-contact-block .item-list > ul li.views-row .views-field {
-  margin-bottom: 10px;
-}
 /* line 51, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\0000351}}
 .block-views-front-page-story-block {
@@ -534,18 +526,23 @@ a:hover {
 .block-views-featured-material-block .item-list > ul li.views-row .views-field {
   text-align: center;
 }
-/* line 316, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003316}}
+/* line 311, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003311}}
+.block-views-featured-material-block .item-list > ul li.views-row .views-field-field-image {
+  margin-bottom: 10px;
+}
+/* line 319, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003319}}
 .block-views-press-block {
   background-color: #929497;
 }
-/* line 318, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003318}}
+/* line 321, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003321}}
 .block-views-press-block p {
   color: #ffffff;
 }
-/* line 322, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003322}}
+/* line 325, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003325}}
 .block-views-press-block .item-list > ul {
   display: block;
   width: 102.08333333333333%;
@@ -576,8 +573,8 @@ a:hover {
 .block-views-press-block .item-list > ul:after {
   clear: both;
 }
-/* line 324, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003324}}
+/* line 327, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003327}}
 .block-views-press-block .item-list > ul li.views-row {
   display: inline;
   float: left;
@@ -585,8 +582,8 @@ a:hover {
   margin: 0 1.0416666666666665%;
 }
 @media screen and (max-width: 1330px) {
-  /* line 326, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003326}}
+  /* line 329, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003329}}
   .block-views-press-block .item-list > ul li.views-row {
     display: inline;
     float: left;
@@ -594,15 +591,15 @@ a:hover {
     margin: 0 1.0416666666666665%;
     margin-bottom: 20px;
   }
-  /* line 329, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003329}}
+  /* line 332, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003332}}
   .block-views-press-block .item-list > ul li.views-row:nth-child(2n+1) {
     clear: left;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 333, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003333}}
+  /* line 336, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003336}}
   .block-views-press-block .item-list > ul li.views-row {
     display: inline;
     float: left;
@@ -611,14 +608,14 @@ a:hover {
     margin-bottom: 20px;
   }
 }
-/* line 338, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003338}}
+/* line 341, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003341}}
 .block-views-press-block .item-list > ul li.views-row .node-press h2 {
   margin-top: 20px;
   margin-bottom: 15px;
 }
-/* line 343, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003343}}
+/* line 346, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003346}}
 .block-views-press-block .item-list > ul li.views-row .node-press .content a {
   font-family: "Helvetica", Arial, Sans-serif;
   font-size: 0.8rem;
@@ -629,13 +626,13 @@ a:hover {
   color: #000000;
   border: none;
 }
-/* line 348, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003348}}
+/* line 351, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003351}}
 .block-views-press-block .item-list > ul li.views-row .node-press .content a:hover {
   color: #ffffff;
 }
-/* line 353, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003353}}
+/* line 356, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003356}}
 .block-views-press-block .item-list > ul li.views-row .node-press .content .field-type-text-with-summary p {
   font-family: "Helvetica", Arial, Sans-serif;
   font-size: 0.8rem;
@@ -645,13 +642,13 @@ a:hover {
   text-align: left;
   color: #e6e6e6;
 }
-/* line 368, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003368}}
+/* line 371, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003371}}
 .block-views-store-location-block {
   background-color: #ffffff;
 }
-/* line 371, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003371}}
+/* line 374, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003374}}
 .block-views-store-location-block .item-list > ul {
   display: block;
   width: 102.08333333333333%;
@@ -682,8 +679,8 @@ a:hover {
 .block-views-store-location-block .item-list > ul:after {
   clear: both;
 }
-/* line 373, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003373}}
+/* line 376, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003376}}
 .block-views-store-location-block .item-list > ul li.views-row {
   display: inline;
   float: left;
@@ -691,8 +688,8 @@ a:hover {
   margin: 0 1.0416666666666665%;
 }
 @media screen and (max-width: 1330px) {
-  /* line 375, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003375}}
+  /* line 378, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003378}}
   .block-views-store-location-block .item-list > ul li.views-row {
     display: inline;
     float: left;
@@ -700,13 +697,13 @@ a:hover {
     margin: 0 1.0416666666666665%;
     margin-bottom: 20px;
   }
-  /* line 378, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003378}}
+  /* line 381, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003381}}
   .block-views-store-location-block .item-list > ul li.views-row:nth-child(2n) {
     clear: left;
   }
-  /* line 381, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003381}}
+  /* line 384, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003384}}
   .block-views-store-location-block .item-list > ul li.views-row:first-child {
     display: inline;
     float: left;
@@ -715,8 +712,8 @@ a:hover {
   }
 }
 @media screen and (max-width: 1024px) {
-  /* line 385, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003385}}
+  /* line 388, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003388}}
   .block-views-store-location-block .item-list > ul li.views-row {
     display: inline;
     float: left;
@@ -724,8 +721,8 @@ a:hover {
     margin: 0 1.0416666666666665%;
   }
 }
-/* line 395, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003395}}
+/* line 398, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003398}}
 .block-views-footer-contact-block .item-list > ul {
   display: block;
   width: 102.08333333333333%;
@@ -756,49 +753,49 @@ a:hover {
 .block-views-footer-contact-block .item-list > ul:after {
   clear: both;
 }
-/* line 397, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003397}}
+/* line 400, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003400}}
 .block-views-footer-contact-block .item-list > ul li.views-row {
   display: inline;
   float: left;
   width: 97.91666666666666%;
   margin: 0 1.0416666666666665%;
 }
-/* line 406, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003406}}
+/* line 409, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003409}}
 .node-footer .content .field-type-image img {
   display: block;
   position: relative;
   margin: 25px auto 40px;
 }
-/* line 412, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003412}}
+/* line 415, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003415}}
 .node-footer .content .field-type-addressfield {
-  text-align: center;
-}
-/* line 416, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003416}}
-.node-footer .content .field-type-linkimagefield .field-items {
-  padding: 20px 0 0;
   text-align: center;
 }
 /* line 419, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003419}}
+.node-footer .content .field-type-linkimagefield .field-items {
+  padding: 20px 0 0;
+  text-align: center;
+}
+/* line 422, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003422}}
 .node-footer .content .field-type-linkimagefield .field-items .field-item {
   display: inline-block;
   text-align: center;
   margin: 0;
 }
-/* line 423, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003423}}
+/* line 426, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003426}}
 .node-footer .content .field-type-linkimagefield .field-items .field-item a {
   display: block;
   position: relative;
   border: none;
   opacity: 0.75;
 }
-/* line 428, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003428}}
+/* line 431, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/global.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/global\.less}line{font-family:\00003431}}
 .node-footer .content .field-type-linkimagefield .field-items .field-item a:hover {
   border: none;
   opacity: 1;
@@ -852,7 +849,7 @@ h6 {
   line-height: 3rem;
   color: #000000;
   width: 100%;
-  margin: 20px auto 40px;
+  margin: 40px auto 40px;
 }
 /* line 28, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000328}}
@@ -875,11 +872,9 @@ h6 {
   text-transform: uppercase;
   line-height: 1.25rem;
   color: #000000;
-  margin-top: 35px;
-  margin-bottom: 10px;
 }
-/* line 49, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000349}}
+/* line 47, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000347}}
 .views-row .node h2 {
   font-family: "Helvetica", Arial, Sans-serif;
   font-size: 1rem;
@@ -889,8 +884,8 @@ h6 {
   color: #000000;
   margin-bottom: 0;
 }
-/* line 55, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000355}}
+/* line 53, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000353}}
 .views-row .node-dessert h2 {
   font-family: "Helvetica", Arial, Sans-serif;
   font-size: 2.5rem;
@@ -900,13 +895,13 @@ h6 {
   color: #000000;
   margin-bottom: 0;
 }
-/* line 58, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000358}}
+/* line 56, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000356}}
 .views-row .node-dessert h2 a {
   color: #000000;
 }
-/* line 66, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000366}}
+/* line 64, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000364}}
 .node-dessert .content .field-name-field-intro,
 .node-dessert .content .field-name-field-ingredients > p,
 .node-dessert .content .field-name-field-additional-info > p,
@@ -922,18 +917,18 @@ h6 {
   font-weight: 400;
   text-transform: none;
 }
-/* line 77, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000377}}
+/* line 75, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000375}}
 .node-dessert .content legend {
   font-weight: 600;
 }
-/* line 81, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000381}}
+/* line 79, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000379}}
 .node-dessert .content .nutritional-group .fieldset-legend {
   text-transform: uppercase;
 }
-/* line 91, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000391}}
+/* line 89, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000389}}
 p {
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 1.25rem;
@@ -941,13 +936,13 @@ p {
   line-height: 1.75rem;
   color: #929497;
 }
-/* line 96, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000396}}
+/* line 94, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000394}}
 .field-name-body p {
   text-align: center;
 }
-/* line 101, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003101}}
+/* line 99, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\0000399}}
 .views-field-field-adress,
 .field-type-addressfield,
 .views-field-field-link {
@@ -957,8 +952,8 @@ p {
   line-height: 1.125rem;
   color: #929497;
 }
-/* line 105, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003105}}
+/* line 103, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003103}}
 .views-field-field-adress .h2,
 .field-type-addressfield .h2,
 .views-field-field-link .h2 {
@@ -970,15 +965,15 @@ p {
   font-weight: bold;
   margin: 0;
 }
-/* line 110, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003110}}
+/* line 108, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003108}}
 .views-field-field-adress a,
 .field-type-addressfield a,
 .views-field-field-link a {
   border-color: #ffffff;
 }
-/* line 112, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003112}}
+/* line 110, /Users/hli/Sites/winterspringdesserts/sites/all/themes/winterspringdesserts/less/typography.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/hli\/Sites\/winterspringdesserts\/sites\/all\/themes\/winterspringdesserts\/less\/typography\.less}line{font-family:\00003110}}
 .views-field-field-adress a:hover,
 .field-type-addressfield a:hover,
 .views-field-field-link a:hover {
@@ -1007,7 +1002,7 @@ p {
 .site-identity figure a img {
   display: block;
   position: relative;
-  width: auto;
+  width: 200px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
